@@ -6,7 +6,7 @@
 
 <body>
 <p>To jest nasza nowa strona internetowa.</p>
-<p> hahahahhaha </p>
+<p1> hahahahhaha </p1>
 </body>
 
 </html>
