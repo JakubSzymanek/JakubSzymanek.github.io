@@ -1,12 +1,19 @@
 <html>
 
 <head>
-<title>Tytuł strony</title>
+<title>Siemano</title>
 </head>
 
 <body>
-<p>To jest nasza nowa strona internetowa.</p>
-<p1> hahahahhaha </p1>
+
+<header><p>header</p></header>
+
+<section><article><p>To jest nasza nowa strona
+internetowa.</p></article></section>
+<aside><p>aside</p></aside>
+
+<footer><p>footer</p></footer>
+
 </body>
 
 </html>
