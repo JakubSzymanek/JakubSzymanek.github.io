@@ -22,6 +22,19 @@
         margin: 0 auto; /* Wyśrodkowanie linii */
         margin-bottom: 2em; /* Odstęp poniżej linii */
       }
+      .quote {
+        position: relative;
+        display: inline-block;
+        text-align: left; /* Wyrównanie tekstu do lewej */
+        margin: 20px 0; /* Odstęp od góry i dołu */
+      }
+      .quote-date {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        font-size: 0.8em; /* Mniejszy rozmiar czcionki */
+        color: #6e6e6e; /* Jasny szary kolor */
+      }
     </style>
   </head>
   <body>
@@ -41,14 +54,21 @@
         document.querySelector('.days-of-anjie').textContent = `(${daysPassed}) Days Of Anjie`;
     </script>
     <div class="decorative-line"></div>
-    <p>"I love her laugh, I know her smile.<br>
-    I was looking for her my entire life.<br>
-    I found her here but lost the sleep,<br>
-    And here she is."</p>
+    
+    <div class="quote">
+      <p>"I love her laugh, I know her smile.<br>
+      I was looking for her my entire life.<br>
+      I found her here but lost the sleep,<br>
+      And here she is."</p>
+      <span class="quote-date">2024-03-25</span>
+    </div>
 
-    <p>"Why do you live in my brain all the time? <br>
-    I am glad I met you, I love your laugh. <br>
-    I am less afraid of death than of losing that."</p>
+    <div class="quote">
+      <p>"Why do you live in my brain all the time? <br>
+      I am glad I met you, I love your laugh. <br>
+      I am less afraid of death than of losing that."</p>
+      <span class="quote-date">2024-03-26</span>
+    </div>
 
   </body>
 </html>
