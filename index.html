@@ -25,6 +25,21 @@
     </style>
   </head>
   <body>
+    <div class="days-of-anjie"></div>
+
+    <script>
+        // Data początkowa
+        const startDate = new Date('2024-03-20');
+        // Data bieżąca
+        const currentDate = new Date();
+        // Różnica w milisekundach
+        const differenceInMilliseconds = currentDate - startDate;
+        // Różnica w dniach
+        const daysPassed = Math.floor(differenceInMilliseconds / (1000 * 60 * 60 * 24));
+        
+        // Aktualizacja tekstu na stronie
+        document.querySelector('.days-of-anjie').textContent = `(${daysPassed}) Days Of Anjie`;
+    </script>
     <h1>Anjie</h1>
     <div class="decorative-line"></div>
     <p>"I love her laugh, I know her smile.<br>
